@@ -11,9 +11,6 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <CitySearch />
-    <ZipViewer myZip={10032}/>
-    <ZipViewer myZip={10032}/>
-    <ZipViewer myZip={10032}/>
 
   </React.StrictMode>,
   document.getElementById('root')
