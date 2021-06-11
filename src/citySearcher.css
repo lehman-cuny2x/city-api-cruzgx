@@ -1,0 +1,13 @@
+.city-container { 
+    text-align: center;
+    background-color: beige;
+}
+
+h1 {
+    font-family: Courier,Helvetica,Arial,sans-serif;
+    font-size: 220%;
+}
+
+.city-label {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}

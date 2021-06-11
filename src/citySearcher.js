@@ -1,5 +1,6 @@
 import {Component} from 'react'
 import ZipViewer from './zipViewer'
+import './citySearcher.css'
 
 class CitySearch extends Component{
     constructor(props){
@@ -42,9 +43,9 @@ class CitySearch extends Component{
 
     render(){
         return(
-            <div>
+            <div className="city-container">
                 <h1>Enter the name of any city down below</h1>
-                <label>City:</label>
+                <label className='city-label'>City:</label>
                 <input type="text" id="userInput"/>
                 <button onClick={this.handleSubmit}>Submit</button>
                 {this.state.myCurrInfo}
