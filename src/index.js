@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+//import './index.css';
+//import App from './App';
+
+import CitySearch from './citySearcher'
+import ZipViewer from './zipViewer'
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <CitySearch />
+    <ZipViewer myZip={10032}/>
+    <ZipViewer myZip={10032}/>
+    <ZipViewer myZip={10032}/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
